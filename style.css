@@ -142,6 +142,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: 100px 200px;
+    flex-shrink: 1;
 }
 
 .quote-flex {
@@ -168,7 +169,50 @@ img {
 
 .sign-up-container {
     background-color: white;
+    padding: 50px 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-shrink: 1;
+}
+
+.sign-up-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-title {
+    color:#e5e7eb;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.sign-up-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border: none;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 40px;
 }
 
 .footer {
