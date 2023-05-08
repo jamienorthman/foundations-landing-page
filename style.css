@@ -89,7 +89,7 @@ img {
 .content-container {
     background-color: white;
     height: 500px;
-    padding-bottom: 170px;
+    padding-bottom: 100px;
 }
 
 .content-text-container {
@@ -184,7 +184,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    flex-shrink: 1;
+    flex-shrink: 1; 
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -227,4 +227,42 @@ img {
     margin-top: auto;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .sign-up-flex {
+        margin-top: 80px;
+    }
+    .sign-up-title {
+        margin: 3px;
+    }
+    .sign-up-text {
+        margin: 3px;
+    }
+    .sign-up-button {
+        margin: 3px;
+    }
+    .content-container {
+        padding-bottom: 200px;
+    }
+
+    .quote-flex {
+        width: 300px;
+    }
+    .quote {
+        font-size: 32px;
+        margin: 0px;
+    }
+
+    .quote-name-flex {
+        width: 300px;
+        justify-content: flex-start;
+    }
 }
